@@ -1,0 +1,33 @@
+{
+  "name": "professions",
+  "version": "1.0.0",
+  "description": "List of more common job",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Le-Sourcier/professions.git"
+  },
+  "keywords": [
+    "Job",
+    "jobs",
+    "title",
+    "titles",
+    "category",
+    "profession",
+    "professions"
+  ],
+  "author": "Le-Sourcier",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Le-Sourcier/professions/issues"
+  },
+  "homepage": "https://github.com/Le-Sourcier/professions#readme",
+  "dependencies": {
+    "express": "^4.18.2",
+    "http": "^0.0.1-security",
+    "nodemon": "^3.0.3"
+  }
+}
