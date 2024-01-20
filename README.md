@@ -91,3 +91,61 @@ curl -X GET https://job-categories-api.example.com/jobs/Web%20Development
   "jobs": ["Web Developer", "Software Engineer", "UI/UX Designer", ...]
 }
 ```
+
+---
+
+### Enhanced Search with Partial Category Match
+
+#### Search Jobs by Partial Category <a name="example-search-jobs-by-partial-category"></a>
+
+**Request:**
+```bash
+curl -X GET https://job-categories-api.example.com/jobs/develop
+```
+
+**Response:**
+```json
+{
+  "results": [
+    {
+      "category": "Web Development",
+      "jobs": ["Web Developer", "Software Engineer", "UI/UX Designer", ...]
+    },
+    {
+      "category": "Mobile Development",
+      "jobs": ["Mobile Engineer", "Software Engineer", "iOS Developer", ...]
+    },
+    ...
+  ]
+}
+```
+
+---
+
+### Enhanced Job Search with Partial Query Match
+
+#### Search Jobs by Partial Query <a name="example-search-jobs-by-partial-query"></a>
+
+**Request:**
+```bash
+curl -X GET https://job-categories-api.example.com/jobs/developer
+```
+
+**Response:**
+```json
+{
+  "results": [
+    {
+      "category": "Web Development",
+      "jobs": ["Web Developer", "Software Engineer", "UI/UX Designer", ...]
+    },
+    {
+      "category": "Mobile Development",
+      "jobs": ["Mobile Engineer", "Software Engineer", "iOS Developer", ...]
+    },
+    ...
+  ]
+}
+```
+
+These enhanced search functionalities allow you to retrieve results even with partial input, providing a more flexible and user-friendly experience.
