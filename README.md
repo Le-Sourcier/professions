@@ -12,7 +12,6 @@ Welcome to the Job Categories API! This API provides information about various j
 3. [Example Usage](#example-usage)
     - [Get All Categories](#example-get-all-categories)
     - [Search Jobs by Category](#example-search-jobs-by-category)
-4. [Generating README](#generating-readme)
 
 ---
 
